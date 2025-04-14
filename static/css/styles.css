@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px gray;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.4em 0.6em;
+}
+
+.text-deadline {
+    color: red;
+    font-weight: bold;
+}
+
+.text-tag {
+    color: blue;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+.sidebar-nav {
+  background-color: lightgray;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar-nav a:hover {
+  color: dodgerblue;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: white;
+}
